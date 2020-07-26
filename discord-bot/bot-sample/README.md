@@ -24,7 +24,7 @@
 
 ## Host bot on local machine
 1. In the [developer portal](https://discord.com/developers/applications), go to **Bot** and press **copy** under **Token**
-2. Edit the system's equivalent of `~/.bashrc`, and add this: `export BOT_TOKEN="client_secret_here"`
+2. Edit the system's equivalent of `~/.bashrc`, and add this: `export BOT_TOKEN="bot_token_here"`
 3. Load the environment variable by `source ~/.bashrc`
 4. Run the code by `python3 bot.py`
 
