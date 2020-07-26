@@ -1,0 +1,11 @@
+[Unit]
+Description=Discord Bot
+
+[Service]
+EnvironmentFile=/etc/systemd/system/bot.env
+ExecStart=/usr/bin/python3 /path_to_bot_here/bot.py
+Restart=always
+User=lee
+
+[Install]
+WantedBy=multi-user.target
