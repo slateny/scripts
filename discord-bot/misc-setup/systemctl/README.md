@@ -4,7 +4,7 @@
 3. Run and verify service
 
 ## Setup bot hosting environment
-1. Refer to [the EC2 bot setup](../ec2-setup) for more information
+1. Refer to [the server setup](../server-setup) for more information
 
 ## Setup service files
 1. In [Discord's developer portal](https://discord.com/developers/applications), copy the bot token
